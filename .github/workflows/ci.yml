@@ -48,7 +48,7 @@ jobs:
       uses: checkstyle/contribution/comment-action@master
       env:
         AUTHOR: ${{ github.event.pull_request.user.login }}
-        link: join(${{ env.AUTHOR }}, '.github.io/stonks-frontend/')
       with:
+        link: join(${{ env.AUTHOR }}, '.github.io/stonks-frontend/')
         message: Link to website https://${{ link }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
