@@ -45,8 +45,12 @@ jobs:
       uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
       
     - name: Output
-      uses: thollander/actions-comment-pull-request@master
+      uses: mshick/add-pr-comment@v1
       with:
-          message: 'Link to site : https://lnmiit-coding.github.io/stonks-frontend'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+        message: |
+          **Hello**
+          🌏
+          !
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
+        allow-repeats: false # This is the default
