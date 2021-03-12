@@ -51,4 +51,4 @@ jobs:
         link: join(${{ env.AUTHOR }}, '.github.io/stonks-frontend/')
       with:
         message: Link to website https://${{ link }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
