@@ -43,11 +43,12 @@ jobs:
 
     - name: Deploy react app to github pages
       uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
-      
+  
     - name: Output
       uses: checkstyle/contribution/comment-action@master
       env:
         AUTHOR: ${{ github.event.pull_request.user.login }}
+        link: join(${{ env.AUTHOR }}, '.github.io/stonks-frontend/')
       with:
-        message: Link to website https://${{ env.AUTHOR }}.github.io/stonks-frontend/
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        message: Link to website https://${{ link }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }
