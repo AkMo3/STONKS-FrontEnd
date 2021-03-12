@@ -47,5 +47,6 @@ jobs:
     - name: Output
       uses: checkstyle/contribution/comment-action@master
       with:
-        message: Link to website https://${{ github.event.pull_request.user.login }}.github.io/stonks-frontend/
+        message: Link to website https://${AUTHOR}.github.io/stonks-frontend/
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        AUTHOR: ${{ github.event.pull_request.user.login }}
