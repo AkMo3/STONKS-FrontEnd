@@ -71,7 +71,7 @@ jobs:
 
     - name: Output
       uses: thollander/actions-comment-pull-request@master
-        with:
+      with:
           message: 'Link to site : https://lnmiit-coding.github.io/stonks-frontend'
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
