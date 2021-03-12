@@ -49,6 +49,5 @@ jobs:
       env:
         AUTHOR: ${{ github.event.pull_request.user.login }}
       with:
-        link: join(${{ env.AUTHOR }}, '.github.io/stonks-frontend/')
-        message: Link to website https://${{ link }}
+        message: Link to website https://{AUTHOR}.github.io/stonks-frontend/
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
