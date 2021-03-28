@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/stonks-frontend/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/stonks-frontend/static/js/main.f84eaf71.chunk.js",
-    "main.js.map": "/stonks-frontend/static/js/main.f84eaf71.chunk.js.map",
-    "runtime-main.js": "/stonks-frontend/static/js/runtime-main.f503dda1.js",
-    "runtime-main.js.map": "/stonks-frontend/static/js/runtime-main.f503dda1.js.map",
-    "static/js/2.94fa97cc.chunk.js": "/stonks-frontend/static/js/2.94fa97cc.chunk.js",
-    "static/js/2.94fa97cc.chunk.js.map": "/stonks-frontend/static/js/2.94fa97cc.chunk.js.map",
-    "static/js/3.ec7bb86e.chunk.js": "/stonks-frontend/static/js/3.ec7bb86e.chunk.js",
-    "static/js/3.ec7bb86e.chunk.js.map": "/stonks-frontend/static/js/3.ec7bb86e.chunk.js.map",
+    "main.css": "/stonks-frontend/static/css/main.9f9a0b20.chunk.css",
+    "main.js": "/stonks-frontend/static/js/main.d2221a91.chunk.js",
+    "main.js.map": "/stonks-frontend/static/js/main.d2221a91.chunk.js.map",
+    "runtime-main.js": "/stonks-frontend/static/js/runtime-main.88f24f1e.js",
+    "runtime-main.js.map": "/stonks-frontend/static/js/runtime-main.88f24f1e.js.map",
+    "static/js/2.7d00562d.chunk.js": "/stonks-frontend/static/js/2.7d00562d.chunk.js",
+    "static/js/2.7d00562d.chunk.js.map": "/stonks-frontend/static/js/2.7d00562d.chunk.js.map",
     "index.html": "/stonks-frontend/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/stonks-frontend/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.94fa97cc.chunk.js.LICENSE.txt": "/stonks-frontend/static/js/2.94fa97cc.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/stonks-frontend/static/media/logo.6ce24c58.svg"
+    "static/css/main.9f9a0b20.chunk.css.map": "/stonks-frontend/static/css/main.9f9a0b20.chunk.css.map",
+    "static/js/2.7d00562d.chunk.js.LICENSE.txt": "/stonks-frontend/static/js/2.7d00562d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/stonks-frontend/static/media/KiwiMaru.25a69c57.ttf",
+    "static/media/logo.afc900b8.png": "/stonks-frontend/static/media/logo.afc900b8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f503dda1.js",
-    "static/js/2.94fa97cc.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.f84eaf71.chunk.js"
+    "static/js/runtime-main.88f24f1e.js",
+    "static/js/2.7d00562d.chunk.js",
+    "static/css/main.9f9a0b20.chunk.css",
+    "static/js/main.d2221a91.chunk.js"
   ]
 }
